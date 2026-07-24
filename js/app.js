@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .join("");
 
   content.innerHTML = `
-    <h2 class="section-title">Contenido</h2>
     ${curso.secciones.map(renderSection).join("")}
   `;
 
