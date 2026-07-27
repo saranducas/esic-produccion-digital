@@ -157,6 +157,11 @@ function renderSection(section, index) {
 
     }
 
+    // Calendario para la sección de horarios
+    if (section.titulo === "Horario y planificación") {
+        html += `<div id="calendar-schedule"></div>`;
+    }
+
     return `
 
         <details class="accordion"${abierto}>
